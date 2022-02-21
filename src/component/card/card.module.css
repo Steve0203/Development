@@ -1,0 +1,51 @@
+.main-card {
+  /* white */
+
+  background: #ffffff;
+  /* divider/search bar */
+  overflow-wrap: anywhere;
+  border: 1px solid #d6d6d8;
+  /* drop shadow cards */
+
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 10px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  overflow: hidden;
+}
+
+.main-card:hover {
+  box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.header-card {
+  font-family: "MuseoSans-500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
+
+  /* Dewolf blue */
+
+  color: #1e7be2;
+}
+
+.card-mini-des {
+  font-family: "MuseoSans-500";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.card-des {
+  font-family: "MuseoSans-300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+}

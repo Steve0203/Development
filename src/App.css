@@ -1,0 +1,10 @@
+.main {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.swiper-pagination-fraction {
+  margin-top: '12px'
+}

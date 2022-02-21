@@ -1,0 +1,78 @@
+.box-results-main {
+  width: 100%;
+  margin-top: 10px;
+}
+.box-results-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.results-back {
+  background: #1e7be2;
+  border-radius: 6px;
+  border: 1px solid #1e7be2;
+  color: white;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+.no-search-result {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: aliceblue;
+}
+.right-box-results {
+  padding-top: 5px;
+  padding-left: 40px;
+}
+.number-result-box-tag {
+  font-family: "MuseoSans-500";
+  font-weight: bold;
+}
+.number-result-box-results {
+  font-family: "MuseoSans-500";
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  /* or 112% */
+
+  text-align: right;
+}
+.accordion-fix {
+  margin-top: 5px;
+}
+.back-to-top-btn {
+  margin: auto;
+  position: sticky;
+  bottom: 70px;
+  left: 60%;
+}
+
+.btn-area {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .back-to-top-btn {
+    left: 45%;
+  }
+  .btn-area {
+    flex-direction: column !important;
+  }
+  .results-btn {
+    width: 100%;
+    justify-content: space-between !important;
+  }
+
+  .selection-btn {
+    width: 100%;
+    justify-content: space-between !important;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.box-hc {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 1px #d6d6d8;
+}
+
+.text-hc {
+  /* border-bottom: solid 1px blue; */
+  margin-right: 40px;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+  font-family: Museo Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 2px;
+}

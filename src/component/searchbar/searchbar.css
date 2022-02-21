@@ -1,0 +1,85 @@
+.search-main {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.searchbar-text {
+  width: 96%;
+  border: 1px solid #d6d6d8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 35px;
+  padding-left: 20px;
+}
+
+.search-buttonsearch {
+  color: white;
+  width: 50px;
+  height: 30px;
+  background-color: #1e7be2;
+  cursor: pointer;
+  border-radius: 0px 6px 6px 0px;
+  margin-left: -50px;
+  height: 35px;
+}
+
+.box-result-search {
+  background: #ffffff;
+  border: 1px solid #d6d6d8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 60vh;
+  z-index: 100;
+  position: absolute;
+  top: 55px;
+  width: 90%;
+  padding: 10px;
+  overflow: scroll;
+}
+.top-result-found {
+  display: inline-block;
+
+  margin-top: 8px;
+  font-family: "MuseoSans-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  /* grey inactive */
+
+  color: #8e8e8e;
+}
+
+.text-top-result {
+  font-family: "MuseoSans-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 3px;
+  cursor: pointer;
+}
+.text-top-result:hover {
+  color: #1e7be2;
+}
+.all-result-from {
+  font-family: "MuseoSans-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  display: block;
+  margin-top: 10px;
+}
+.little-helper {
+  font-family: "MuseoSans-300";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: gray;
+  /* or 112% */
+}

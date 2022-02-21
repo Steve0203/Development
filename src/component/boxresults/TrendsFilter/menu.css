@@ -1,0 +1,23 @@
+.menu-box {
+  padding: 20px;
+}
+.text-menu-principal {
+  font-family: "MuseoSans-700";
+  font-weight: bold;
+}
+.text-menu {
+  font-family: "MuseoSans-300";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.menu-text-inactive {
+  color: #8e8e8e;
+}
+
+.menu-text-active {
+  font-family: "MuseoSans-500";
+  font-weight: bold;
+}
